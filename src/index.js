@@ -1,11 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import App from './comps/App';
+import App2 from './components/App'
 import reportWebVitals from './reportWebVitals';
+import DealCard from './components/DealCard';
+import MainWS from './components/MainWS'
+import ActiveDealsListing from './components/ActiveDealsListing';
+import ReactSockJsClient from './components/ReactSockJsClient';
+import SockClientApp from './components/SockClientApp'
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <ReactSockJsClient /> */}
+    {/* <App2 /> */}
+    {/* <SockClientApp /> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
